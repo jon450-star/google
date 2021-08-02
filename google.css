@@ -53,6 +53,12 @@ html{
 .header-nav .header-ul .header-ul__li img{
     border-radius: 400px;
 }
+
+.header-nav .header-ul .header-ul__li img:hover{
+
+    box-shadow: 0 0 0 3px rgb(0 0 0 / 15%)
+}
+
 .big-main{
     display: flex;
     flex-direction: column;
@@ -88,6 +94,13 @@ html{
     border: 1px solid #dfe1e5 ;
     border-radius: 40px 40px 40px 40px ;
     min-width: 600px;
+
+}
+
+.big-main-search__items:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+
+
 }
 
 #lupa{
@@ -166,6 +179,12 @@ html{
     user-select: none;
 }
 
+#boton:hover{
+
+    box-shadow: 0px 0px 1px 1px #20212447;
+}
+
+
 #suerte{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -181,6 +200,11 @@ html{
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+#suerte:hover{
+
+    box-shadow: 0px 0px 1px 1px #20212447;
 }
 
 .big-main-letter{
